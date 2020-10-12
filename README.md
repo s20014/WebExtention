@@ -11,4 +11,8 @@
 8. Chapter08「[リンクの設定と画像の表示](chapter08/ch08-linkimg.html)」
 9. Chapter09「[ボックスと情報の整理](chapter09/ch09-boxcss.html)」
 10. Chapter10「[テーブル](chapter10/ch10-table.html)」
+<<<<<<< HEAD
 11. Task01 「[Webページ作成](Task01/index.html)」
+=======
+11. Task01 「[Webページ作成a](Task01/index.html)」
+>>>>>>> 3097e9a6d37ca1ee516f099002c67e4993c7fe5d
