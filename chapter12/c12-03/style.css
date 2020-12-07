@@ -1,0 +1,113 @@
+@charset "utf-8";
+body{
+	margin: 0;
+	color: #444;
+}
+
+.container {
+	margin: 0 auto 0 auto;
+	padding: 0 16px 0 16px;
+	max-width: 1000px;
+}
+
+section .container{
+	display:flex;
+	flex-flow: column;
+}
+
+}
+nav{
+	margin-bottom: 20px;
+}
+
+footer{
+	margin-top: 20px;
+}
+
+main p:last-child{
+	margin-bottom: 0;
+}
+
+.header-inner {
+	background: #bad7f5;
+	padding: 10px 10px 0 10px;
+}
+
+main {
+	background: #fffde3;
+	height: 400px;
+	padding: 20px 10px 20px 10px;
+}
+
+.sidebar{
+	background: #c0f5b9;
+	padding: 20px 10px 20px 10px;
+}
+
+.footer-inner {
+	background: #bad7f5;
+	padding: 20px 16px 20px 16px;
+}
+
+/* ヘッダー部*/
+.hamburger {
+	border: none;
+	width: 50px;
+	height: 50px;
+	background: url(hamburger.png)no-repeat;
+	background-size: contain;
+}
+
+/* ナビゲーション */
+
+.navbar {
+	display: none;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background: #565656;
+}
+ 
+
+.navbar li a{
+	display: block;
+	padding: 10px 8px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.navbar li a:hover {
+	background: #fff;
+	color: #565656;
+}
+
+@media only screen and (min-width: 768px) {
+	section .container {
+		flex-flow: row;
+	}
+	main {
+		flex: 1 1 auto;
+	}
+	.sidebar {
+		flex: 0 0 340px;
+	}
+
+	.hamburger {
+		display: none;
+	}
+	.navbar {
+		display: flex !important;
+	}
+
+}
+
+
+.main-title {
+	margin: 0;
+}
+
+.copyright {
+	margin: 0;
+}
+
+
